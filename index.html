@@ -6,46 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crystal Lee</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="navigation">
-            <div class="logo inline-block">
-                <img src="/images/largelogo.png" alt="Crystal Lee Logo">
+    <section class="header">
+        <nav>
+            <div class ="boxLogo">
+                <a href="index.html"><img src="/images/largelogo.png" alt="Crystal Lee"></a>
             </div>
-            <nav class="inline-block">
+
+            <div class="nav-links" id="navLinks">
+                <i class=featherIconX onclick="hideMenu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></i>
                 <ul>
-                    <li class="inline-block">WORK</li>
-                    <li class="inline-block">ABOUT</li>
-                    <li class="inline-block">ART</li>
-                    <li class="inline-block">CONTACT</li>
+                    <li><a href="">WORK</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">ART</a></li>
+                    <li><a href="">CONTACT</a></li>
                 </ul>
-            </nav>
-    </header>
+            </div>
+            <i class=featherIconMenu onclick="showMenu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></i>
+        </nav>
+
+        <section class="heroImg">
+            <div class="content">
+                <h1>CRYSTAL YURI LEE</h1>
+                <p>That's Me!</p>
+                <img src="/images/crystallee.jpeg" alt="Image of Crystal">
+                <h4>UX/UI Designer based in Atlanta, Georgia</h4>
+                <br>
+                <p>I am a thriving beginner that takes on challenges <br>like an expert. I firmly believe in going above <br>and beyond in all aspects of my work to <br>make designs that are truly for my users. <br>Nice to meet you!</p>>
+                <button>DOWNLOAD MY RESUME</button>
+            </div>
+        </section>
+</section>   
+
+<footer>
+    <div class="logoFooter">
+        <img src="/images/largelogo.png" alt="Crystal Lee Logo">
+        <p>Atlanta, GA</p>
+        <p>cyurilee@gmail.com</p>
+        <button>CONTACT ME</button>
+        <p>Crystal Yuri Lee © All Rights Reserved</p>
+    </div>
+</footer>
+
 
     
-    <section class="heroImg">
-        <div class="content">
-            <h1>CRYSTAL YURI LEE</h1>
-            <p>That's Me!</p>
-            <img src="/images/crystallee.jpeg" alt="Image of Crystal">
-            <h4>UX/UI Designer based in Atlanta, Georgia</h4>
-            <br>
-            <p>I am a thriving beginner that takes on challenges <br>like an expert. I firmly believe in going above <br>and beyond in all aspects of my work to <br>make designs that are truly for my users. <br>Nice to meet you!</p>>
-            <button>DOWNLOAD MY RESUME</button>
-        </div>
-    </section>
-
-    
-    <footer>
-        <div class="logoFooter">
-            <img src="/images/largelogo.png" alt="Crystal Lee Logo">
-            <p>Atlanta, GA</p>
-            <p>cyurilee@gmail.com</p>
-            <button>CONTACT ME</button>
-            <p>Crystal Yuri Lee © All Rights Reserved</p>
-        </div>
-    </footer>
-
-
 </body>
 </html>
